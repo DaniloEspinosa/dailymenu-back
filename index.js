@@ -4,9 +4,9 @@ const app = express()
 const PORT = process.env.PORT || 8080
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('El deploy del backend funciona')
 })
 
 app.listen (PORT, () => {
-  console.log(`Example app listening on PORT http://localhost:${PORT}`)
+  console.log(`Daily Menu app listening on PORT http://localhost:${PORT}`)
 })
